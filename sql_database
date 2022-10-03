@@ -1,0 +1,35 @@
+-- DROP TABLE Customer;
+
+-- CREATE Table Customer(
+-- id SERIAL PRIMARY KEY,
+-- firstname VARCHAR(255),
+-- lastname VARCHAR(255),
+-- email VARCHAR(255),
+-- phone INTEGER
+-- )
+
+-- INSERT INTO Customer(id, firstname,lastname, email, phone)
+--  VALUES (DEFAULT, 'naina', 'noorani', 'nainasemail@yahoo.com', 1000000000);
+
+-- INSERT INTO Customer(id, firstname,lastname, email, phone)
+--  VALUES (DEFAULT, 'bubbles', 'boorani', 'bubbles@yahoo.com', 2000000000);
+
+-- CREATE Table Products(
+-- id SERIAL PRIMARY KEY,
+-- brand VARCHAR(255),
+-- model VARCHAR(255),
+-- description VARCHAR(255),
+-- price FLOAT,
+-- quantity INTEGER
+-- )
+
+-- INSERT INTO Products(id, brand, model, description, price,quantity)VALUES (DEFAULT, 'electric bikes R US', 'sparky', 'perfect for long rides', 1000.50, 8);
+
+CREATE Table Transactions(
+id SERIAL PRIMARY KEY,
+brand VARCHAR(255),
+model VARCHAR(255),
+description VARCHAR(255),
+price FLOAT,
+quantity INTEGER
+)
